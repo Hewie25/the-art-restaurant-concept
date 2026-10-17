@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Explore a restaurant concept where Ghanaian favourites, expressive interiors and thoughtful dining come together. View the menu and plan your visit."/>
+    <meta name="keywords" content="restaurant concept, Ghanaian cuisine, art-inspired dining, restaurant menu, dining experience, Accra restaurant concept"/>
+    <meta name="author" content="Hubert Sackey"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="artrestaurant.css" rel="stylesheet"/>
+    <title>The Art Restaurant | Dining &amp; Art — Portfolio Concept</title>
+ </head>
+ 
+ <body>
+  <header>
+   <a aria-label="The Art Restaurant home" class="logo-link" href="#home">
+    <span class="logo">The Art Restaurant</span>
+   </a>
+    <button aria-controls="nav-list" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" type="button">☰</button>
+       <nav aria-label="Main navigation" class="nav-list" id="nav-list">
+            <ul>
+                 <li>
+                    <a href="#home">HOME</a>
+                 </li>
+                 <li>
+                    <a href="#about">OUR STORY</a>
+                 </li>
+                 <li>
+                    <a href="#menu">MENU</a>
+                 </li>
+                 <li>
+                    <a href="#experience">EXPERIENCE</a>
+                 </li>
+                 <li>
+                    <a href="#events">EVENTS</a>
+                 </li>
+                 <li>
+                    <a href="#contact">CONTACT</a>
+                 </li>
+                 <li>
+                    <a class="btn-submit primary" href="#reservations">RESERVE A TABLE</a>
+                 </li>
+            </ul>
+       </nav>
+  </header>
+  
+  <main>
+   <section class="home" id="home">
+        <div class="hero">
+             <h1 class="hero-title">The Art Restaurant</h1>
+             <img alt="Warm African-inspired interior of The Art Restaurant" class="hero-img" src="Warm African-Inspired Restaurant Interior.png"/>
+        </div>
+    
+        <div class="sub-hero">
+             <p class="sub-text">
+                  <span class="eyebrow">ART, CULTURE &amp; DINING</span>
+                  <br/>
+                  Where Ghanaian flavour meets a more artful kind of dining.
+             </p>
+             <br/>
+             <p>
+                  Come for the flavour. Stay for the feeling. The Art Restaurant is a dining concept inspired by Ghanaian favourites, expressive surroundings and the pleasure of sharing a table. Explore the menu, discover the space, and imagine your next dinner, celebration or long conversation here.
+             </p>
+             <br/>
+             <br/>
+             <div class="hero-btns">
+                  <a class="btn-submit btn" href="#reservations">RESERVE A TABLE</a>
+                  <a class="btn btn-outline" href="#menu">EXPLORE MENU</a>
+             </div>
+        </div>
+   </section>
+   
+   <section class="about" id="about">
+        <div class="bout">
+             <p>
+              <span class="eyebrow">Our Story</span>
+              <br/>
+              A meeting place for flavour and creativity
+             </p>
+            <img alt="Interior space at The Art Restaurant" class="menu-img" loading="lazy" src="space.jpeg"/>
+        </div>
+        
+        <div class="body-text">
+             <p>At The Art Restaurant, the idea is simple: a meal can satisfy your appetite and shape the way you remember an evening. This concept brings Ghanaian food, visual art and warm hospitality into one considered experience.</p>
+             <br/>
+             <p>Imagine a table set for good food and unhurried conversation, surrounded by details that invite you to look a little closer. Here, the setting is part of the story, not just the backdrop.</p>
+             <br/>
+             <p>Whether it is a dinner for two, a family meal or a gathering with friends, the aim is to make choosing a dish and sharing the moment feel easy.</p>
+             <br/>
+             <p>Explore a menu rooted in familiar flavours, in a setting imagined for people who enjoy discovering something with their meal.</p>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <div>
+                  <span class="stat-line">
+                       <strong class="numb">FOOD</strong>
+                       <br/>
+                       Ghanaian favourites with a creative touch
+                  </span>
+                  <span class="stat-line">
+                       <strong class="numb">ART</strong>
+                       <br/>
+                       A setting designed to spark conversation
+                  </span>
+                  <span class="stat-line">
+                       <strong class="numb">YOU</strong>
+                       <br/>
+                       A table for your next occasion
+                   </span>
+             </div>
+        </div>
+   </section>
+   
+   <section class="menu" id="menu">
+        <div class="bout">
+             <p class="eyebrow">THE MENU</p>
+             <p>Familiar flavours, thoughtfully brought together</p>
+        </div>
+        <div class="second-text">
+             <p>Start with something bright and spicy, settle into a Ghanaian favourite, then finish with a sweet note. The menu pairs familiar local dishes with a few playful twists, so there is something to tempt your appetite at every stage.</p>
+        </div>
+        
+        <div class="menu-category">
+             <button aria-pressed="true" class="menu-btn" data-filter="all" type="button">ALL</button>
+             <button aria-pressed="false" class="menu-btn" data-filter="starters" type="button">STARTERS</button>
+             <button aria-pressed="false" class="menu-btn" data-filter="mains" type="button">MAINS</button>
+             <button aria-pressed="false" class="menu-btn" data-filter="desserts" type="button">DESSERTS</button>
+             <button aria-pressed="false" class="menu-btn" data-filter="drinks" type="button">DRINKS</button>
+        </div>
+    
+        <div class="starters" data-menu-group="starters">
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Kelewele Bites</h3>
+                       <span class="price">GHS 65</span>
+                  </div>
+                  <p>Sweet, golden plantain with a warming spice kick, finished with roasted peanut crumble and a little pepper.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Chicken Suya Skewers</h3>
+                       <span class="price">GHS 60</span>
+                  </div>
+                  <p>Smoky grilled chicken coated in fragrant suya spice, served with onions and peppers for a savoury, gently fiery bite.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Ghanaian Light Soup</h3>
+                       <span class="price">GHS 65</span>
+                  </div>
+                  <p>A warming tomato-and-pepper broth lifted with herbs, bringing a familiar Ghanaian comfort to the first course.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Grilled Tiger Prawns</h3>
+                       <span class="price">GHS 135</span>
+                  </div>
+                  <p>Char-grilled prawns with garlic, bright lemon and fresh herbs for a clean, savoury finish.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Avocado &amp; Mango Salad</h3>
+                       <span class="price">GHS 70</span>
+                  </div>
+                  <p>Creamy avocado, ripe mango, crisp greens and roasted cashews tossed in a light citrus dressing.</p>
+             </div>
+        </div>
+    
+        <div class="main-course" data-menu-group="mains">
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Beef Suya Platter</h3>
+                       <span class="price">GHS 85</span>
+                  </div>
+                  <p>Grilled beef layered with bold suya spice, sweet caramelized onions, roasted peppers and a fresh salad.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Jollof Royale</h3>
+                       <span class="price">GHS 145</span>
+                  </div>
+                  <p>Rich, tomato-seasoned Ghana-style jollof with grilled chicken, sweet fried plantain and a crisp garden salad.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Grilled Tilapia &amp; Banku</h3>
+                       <span class="price">GHS 125</span>
+                  </div>
+                  <p>Whole tilapia grilled with herbs and spices, paired with soft banku and a traditional pepper sauce for a bold, familiar finish.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Waakye Art House</h3>
+                       <span class="price">GHS 75</span>
+                  </div>
+                <p>A generous take on a Ghanaian classic: rice and beans with grilled chicken, fried plantain, egg and house shito.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Red Red</h3>
+                       <span class="price">GHS 80</span>
+                  </div>
+                  <p>Tender black-eyed beans in a rich stew, served with sweet fried plantain, creamy avocado and house shito.</p>
+             </div>
+        </div>
+        <div class="desserts" data-menu-group="desserts">
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Baked Plantain &amp; Caramel</h3>
+                       <span class="price">GHS 85</span>
+                  </div>
+                  <p>Warm caramelized plantain meets cool vanilla ice cream, toasted peanuts and a ribbon of caramel sauce.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Chocolate &amp; Coconut Tart</h3>
+                       <span class="price">GHS 145</span>
+                  </div>
+                  <p>A deep chocolate tart balanced by silky coconut cream and the fresh brightness of seasonal berries.</p>
+             </div>
+                 <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Sobolo Berry Cheesecake</h3>
+                       <span class="price">GHS 125</span>
+                  </div>
+                <p>Creamy cheesecake layered over a buttery biscuit base and finished with a tangy sobolo-inspired berry topping.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Mango &amp; Passion Fruit Panna Cotta</h3>
+                       <span class="price">GHS 75</span>
+                  </div>
+                    <p>Silky vanilla panna cotta with juicy mango and a lively passion-fruit finish.</p>
+             </div>
+        </div>
+        <div class="drinks" data-menu-group="drinks">
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Signature Sobolo</h3>
+                       <span class="price">GHS 80</span>
+                  </div>
+                  <p>A chilled hibiscus drink with pineapple sweetness, ginger warmth and a gentle blend of spices.</p>
+             </div>
+             <div class="menu-list line">
+                  <div class="menu-item-header">
+                       <h3 class="menu-list-heading">Pineapple-Ginger Cooler</h3>
+                       <span class="price">GHS 80</span>
+                  </div>
+                  <p>
+                       Fresh pineapple, lively ginger, a squeeze of lime and cool mint, served over ice.
+                       <br/>
+                       <br/>
+                  </p>
+             </div>
+        </div>
+   </section>
+   
+   <section class="chef-section">
+        <div class="chef">
+             <p class="eyebrow">CHEF'S SPECIAL</p>
+             <h3 class="chef-title">The Artist's Table</h3>
+             <p class="chef-description">A concept for a changing seasonal special, inspired by ingredients in season and the creative spirit of the kitchen. In a real restaurant, today's dish and availability would be confirmed by the team.</p>
+        </div>
+   </section>
+   
+   <section class="experience-section" id="experience">
+        <div class="experience">
+             <div>
+                  <p class="eyebrow">THE EXPERIENCE</p>
+                  <h3 class="bout">A meal with a sense of place.</h3>
+                  <p class="second-text">Picture an evening shaped by good food, considered surroundings and conversation that lasts beyond the last bite. The idea is not simply to serve a meal, but to bring flavour, setting and company together.</p>
+             </div>
+             <br/>
+             <br/>
+             <div class="experience-grid">
+                  <div class="expe">
+                       <span class="numb">01</span>
+                       <span class="last-name">The Food</span>
+                       <p>Ghanaian favourites and creative combinations designed to make choosing your meal part of the pleasure.</p>
+                  </div>
+                  <div class="expe">
+                       <span class="numb">02</span>
+                       <span class="last-name">The Space</span>
+                       <p>Art-inspired details and warm textures give the dining space its own character and invite a closer look.</p>
+                  </div>
+                  <div class="expe">
+                       <span class="numb">03</span>
+                       <span class="last-name">The Moment</span>
+                       <p>From a quiet dinner to a shared celebration, the table becomes a reason to pause, connect and enjoy being together.</p>
+                  </div>
+             </div>
+        </div>
+   </section>
+   
+   <section class="event-section" id="events">
+        <img alt="Warm, artful dining room at The Art Restaurant" class="expe-img" loading="lazy" src="Artful Warmth in a Modern Restaurant.png"/>
+        <br/>
+        <br/>
+        <div class="">
+             <p class="eyebrow">PRIVATE EVENTS</p>
+             <p class="bout">Bring your people. Make it a moment.</p>
+             <br/>
+             <p>Some occasions deserve more than a quick meal. Imagine gathering your favourite people for a birthday dinner, marking an anniversary or bringing colleagues together around good food. Tell us what you are planning and the kind of evening you have in mind.</p>
+             <br/>
+             <br/>
+             <div class="event-category">
+                  <ol>
+                       <li class="event">
+                            <span class="last-name">Private Dinners</span>
+                            A relaxed table for date nights, family dinners and catching up with friends.
+                       </li>
+                       <li class="event">
+                            <span class="last-name">Corporate Gatherings</span>
+                            A place to bring colleagues together outside the usual workday.
+                       </li>
+                       <li class="event">
+                            <span class="last-name">Celebrations</span>
+                            Mark birthdays, anniversaries and personal milestones over a shared meal.
+                       </li>
+                  </ol>
+             </div>
+        </div>
+        <br/>
+        <a href="#reservations">
+            <span class="btn-submit primary event-cta">PLAN YOUR EVENT</span>
+        </a>
+        <br/>
+        <br/>
+        <br/>
+        <div class="atmosphere">
+             <p class="eyebrow">THE ATMOSPHERE</p>
+             <p class="bout">See the experience</p>
+             <br/>
+             <p>Explore the visual direction of this restaurant concept: warm interiors, considered table settings and food made to be shared.</p>
+        </div>
+        <div class="atmos-img">
+             <img alt="Restaurant atmosphere and dining details" class="expe-img" loading="lazy" src="space.jpeg"/>
+             <img alt="A glimpse of the restaurant interior" class="expe-img" loading="lazy" src="Warm African-Inspired Restaurant Interior.png"/>
+             <img alt="Dining space at The Art Restaurant" class="expe-img" loading="lazy" src="setting.jpeg"/>
+        </div>
+        <div class="feedback-section">
+         <p class="eyebrow">GUEST EXPERIENCE</p>
+         <p class="bout">The details that make a visit feel considered</p>
+            <br/>
+             <ol class="testimonial">
+                  <li class="testi">
+                       <strong class="last-name">A warm welcome</strong>
+                       <span class="feedback">The intended experience: friendly, attentive hospitality from arrival to the final course.</span>
+                  </li>
+                  <li class="testi">
+                       <strong class="last-name">Time well spent</strong>
+                       <span class="feedback">The intended experience: a comfortable setting for conversation, celebration and a meal without hurry.</span>
+                  </li>
+                  <li class="testi">
+                       <strong class="last-name">Food worth exploring</strong>
+                       <span class="feedback">The intended experience: familiar Ghanaian flavours presented with enough care to make guests curious about the next dish.</span>
+                  </li>
+             </ol>
+        </div>
+   </section>
+   <section class="reservation-section" id="reservations">
+        <div class="reserve">
+             <span class="eyebrow">RESERVATIONS</span>
+             <div class="bout">Let’s plan your table.</div>
+             <div class="pad-body">
+              <p class="diff-color">Have a dinner or special occasion in mind? Share your preferred date, time and party size. This portfolio form demonstrates the reservation journey; it does not send a real booking.</p>
+              <br/>
+              <p>Planning a private event? Include the occasion and any details that would help shape your gathering.</p>
+             </div>
+        </div>
+        <div class="reserve">
+         <form id="reservation-form">
+              <div class="form-group">
+                   <label class="eyebrow name" for="name">FULL NAME</label>
+                   <input class="input" id="name" name="name" placeholder="Your Name" required="required" type="text"/>
+                   
+                   <label class="eyebrow name" for="email">EMAIL ADDRESS</label>
+                   <input class="input" id="email" name="email" placeholder="you@email.com" required="required" type="email"/>
+                   
+                   <label class="eyebrow name" for="phone">PHONE NUMBER</label>
+                   <input class="input" id="phone" name="phone" placeholder="+233 XX XXX XXXX" required="required" type="tel"/>
+                   
+                   <label class="eyebrow name" for="guests">NUMBER OF GUESTS</label>
+                   <select class="input" id="guests" name="guests" required="required">
+                    <option selected="selected" value="1 - 3 Guests">1 - 3 Guests</option>
+                    <option value="4 - 6 Guests">4 - 6 Guests</option>
+                    <option value="7 - 9 Guests">7 - 9 Guests</option>
+                    <option value="10+ Guests">10+ Guests</option>
+                   </select>
+              </div>
+              <div class="form-group">
+                   <label class="eyebrow name" for="date">PREFERRED DATE</label>
+                   <input class="input" id="date" name="date" required="required" type="date"/>
+                   
+                   <label class="eyebrow name" for="time">PREFERRED TIME</label>
+                   <input class="input" id="time" name="time" required="required" type="time"/>
+                   
+                   <label class="eyebrow name" for="occasion">OCCASION</label>
+                   <select class="input" id="occasion" name="occasion" required="required">
+                    <option selected="selected" value="Dinner">Dinner</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Anniversary">Anniversary</option>
+                    <option value="Business">Business</option>
+                    <option value="Private Event">Private Event</option>
+                    <option value="Other">Other</option>
+                   </select>
+              </div>
+              <div class="form-group">
+                   <label class="eyebrow name" for="code">
+                    RESERVATION CODE (OPTIONAL)
+                   </label>
+                   <input class="input" id="code" name="code" placeholder="If you have one (optional)" type="text"/>
+                   <label class="eyebrow name" for="request">
+                    SPECIAL REQUEST
+                   </label>
+                   <textarea aria-label="Special request" class="input" id="request" name="request" placeholder="Tell us about any special requirements" rows="4"></textarea>
+              </div>
+              <br/>
+              <br/>
+              <button class="btn-submit" type="submit">REQUEST RESERVATION</button>
+            </form>
+        </div>
+   </section>
+   
+   <section class="contact-section" id="contact">
+        <div class="contact-details">
+             <p class="eyebrow">CONTACT</p><br/>
+             <span class="bout">Let's make plans.</span>
+             <br/>
+             <br/>
+             <p>Want to ask about the menu, discuss an event or plan a visit? Use the details below as placeholders for this portfolio concept; a real restaurant would provide verified contact information here.</p>
+        </div>
+        <div class="contact-details">
+             <div class="contact-detail">
+                  <strong class="eyebrow">LOCATION</strong>
+                  <p>Accra, Ghana</p>
+             </div>
+             <div class="contact-detail">
+                  <strong class="eyebrow">PHONE</strong>
+                  <p>Phone number to be added</p>
+             </div>
+             <div class="contact-detail">
+                  <strong class="eyebrow">EMAIL</strong>
+                  <p>Contact email to be added</p>
+             </div>
+         
+             <div class="contact-detail">
+                  <strong class="eyebrow" id="openinghours">OPENING HOURS</strong>
+                  <div class="hours">
+                   <strong>Tuesday - Thursday</strong> 11:00 AM - 10:00 PM
+                  </div>
+                  <div class="hours">
+                   <strong>Friday - Saturday</strong> 11:00 AM - 11:30 PM
+                  </div>
+                  <div class="hours">
+                   <strong>Sunday</strong> 12:00 PM - 9:00 PM
+                  </div>
+                  <div class="hours">
+                   <strong>Monday</strong> Closed
+                  </div>
+             </div>
+        </div>
+   </section>
+  </main>
+  
+  <footer>
+       <div class="footer">
+            <h2>The Art Restaurant</h2>
+            <p>A restaurant concept bringing Ghanaian flavours, art-inspired surroundings and shared moments to the same table.</p>
+       </div>
+       
+       <div class="footer">
+            <h3>Explore</h3>
+            <span>
+             <a class="footer-link" href="#home">Home</a>
+            </span>
+            <span>
+             <a class="footer-link" href="#about">Our Story</a>
+            </span>
+            <span>
+             <a class="footer-link" href="#experience">Experience</a>
+            </span>
+            <span>
+             <a class="footer-link" href="#contact">Location</a>
+            </span>
+       </div>
+       
+       <div class="footer">
+            <h3>Visit</h3>
+            <span>Example address — concept only</span>
+            <span>
+             <a class="footer-link" href="#openinghours">Opening Hours</a>
+            </span>
+            <span>
+             <a class="footer-link" href="#reservations">Make a reservation</a>
+            </span>
+            </div>
+       <div>&copy; 2026 The Art Restaurant. Fictional portfolio concept by Hubert Sackey.</div>
+  </footer>
+  
+  <script>
+       (() => {
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('#nav-list');
+    
+      if (menuToggle && nav) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('open');
+          menuToggle.setAttribute('aria-expanded', String(isOpen));
+          menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+          menuToggle.textContent = isOpen ? '×' : '☰';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Open navigation menu');
+            menuToggle.textContent = '☰';
+          });
+        });
+      }
+    
+      const filterButtons = document.querySelectorAll('[data-filter]');
+      const menuGroups = document.querySelectorAll('[data-menu-group]');
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const filter = button.dataset.filter;
+          filterButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+          menuGroups.forEach(group => {
+            group.hidden = filter !== 'all' && group.dataset.menuGroup !== filter;
+          });
+        });
+      });
+    
+      const form = document.querySelector('#reservation-form');
+      if (form) {
+        form.addEventListener('submit', event => {
+          event.preventDefault();
+          if (!form.reportValidity()) return;
+          alert('Thank you! This is a portfolio demo, so your reservation request has not been sent to a restaurant.');
+          form.reset();
+        });
+      }
+    })();
+  </script>
+ </body>
+</html>
